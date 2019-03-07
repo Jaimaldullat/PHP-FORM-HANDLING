@@ -1,0 +1,84 @@
+/*
+################
+               BASICS & GENERICS
+################
+*/
+body,
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: #393f4d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.warning {
+    color: #ff0000;
+}
+span.warning {
+    font-weight: bold;
+}
+/*
+################
+               FEEDBACK FORM
+################
+*/
+.feedback-form {
+    margin-left: 50px;
+    font-size: 1.2rem;
+}
+
+.feedback-form h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.feedback-form p {
+    font-weight: bold;
+}
+.form .form-control {
+    margin-top: 20px;
+}
+.form .form-control label {
+    vertical-align: top;
+    display: block;
+    font-weight: bold;
+}
+
+.form .form-control input,
+.form .form-control textarea,
+.form .form-control fieldset {
+    box-shadow: none;
+    border-radius: 5px;
+    border:1px solid #555;
+    padding: 5px;
+    width: 300px;
+}
+.form .form-control input:focus,
+.form .form-control textarea:focus {
+    outline: none;
+}
+.form p.warning {
+    margin-top: 20px;
+}
+.form .form-control legend {
+    font-weight: bold;
+}
+.form .form-control input[type=radio],
+.form .form-control fieldset label,
+.form .form-control input[type=checkbox]{
+    display: inline-block;
+    width: auto;
+}
+.form .form-control button {
+    padding: 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: 1px solid #feda6a;
+    cursor: pointer;
+    color: #feda6a;
+    background-color: #393f4d;
+}
+
